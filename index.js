@@ -1,5 +1,5 @@
 const express = require("express");
-const { pool } = require("./dbConfig");
+const { pool } = require("./dbconfig");
 const bcrypt = require("bcrypt");
 const passport = require("passport");
 const flash = require("express-flash");
